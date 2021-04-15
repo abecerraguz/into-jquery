@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Lobster&display=swap');
+
+
+
+/*body * {
+  border:1px solid red;
+}*/
+
+.viajes{
+  width:100%;
+  height:auto;
+  display:block;
+  background:coral;
+}
+
+.nota{
+  background:#acacac;
+  padding:10px;
+  border-radius:5px;
+  margin:16px 0;
+}
+
+.ricomida{
+  width:100%;
+  height:auto;
+  display:block;
+  background:#DC3545;
+  padding:120px 0;
+}
+
+.btn-block{
+  max-width:25%;
+  display: inline-block;
+}
+
+p{
+  background:rgba(255,255,255,0.3);
+  padding:16px;
+  box-shadow:0 3px 10px rgba(0,0,0,0.4);
+}
+
+
+@media screen and (max-width: 575px) {
+  .viajes{
+    width:100%;
+    height:auto;
+    display:block;
+    background:purple;
+  }
+}
